@@ -102,7 +102,7 @@ export default function FullPage() {
               <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                 <Image
                   src="/man.png"
-                  alt="App screenshot"
+                  alt="Brazilian Boy"
                   width={800}
                   height={800}
                 />
