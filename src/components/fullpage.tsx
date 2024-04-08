@@ -103,7 +103,7 @@ export default function FullPage() {
                 <Image
                   src="/man.png"
                   alt="Brazilian Boy"
-                  width={800}
+                  width={600}
                   height={800}
                 />
               </div>
@@ -293,9 +293,9 @@ export default function FullPage() {
           <nav aria-label="Progress">
             <ol role="list" className="divide-y divide-gray-300 rounded-2xl border border-gray-700 md:flex md:divide-y-0">
               {steps.map((step, stepIdx) => (
-                <li key={step.name} className="relative py-6 md:flex md:flex-1">
+                <li key={step.name} className="relative py-4 md:flex md:flex-1">
                   <div>
-                    <a href={step.href} className="flex items-center px-6 py-4 text-sm font-medium" aria-current="step">
+                    <a href={step.href} className="flex items-center pb-4 px-6 text-sm font-medium" aria-current="step">
                       <span className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full border-2 border-verde">
                         <span className="text-verde text-2xl">{step.id}</span>
                       </span>
