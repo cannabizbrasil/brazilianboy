@@ -296,7 +296,7 @@ export default function FullPage() {
                 <li key={step.name} className="relative py-4 md:flex md:flex-1">
                   <div>
                     <a href={step.href} className="flex items-center pb-4 px-6 text-sm font-medium" aria-current="step">
-                      <span className="flex h-16 w-16 flex-shrink-0 items-center justify-center rounded-full border-2 border-verde">
+                      <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-verde">
                         <span className="text-verde text-2xl">{step.id}</span>
                       </span>
                       <span className="ml-4 text-2xl font-bold text-white">{step.name}</span>
