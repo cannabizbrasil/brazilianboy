@@ -17,13 +17,11 @@ const inter = Inter({ subsets: ["latin"] });
 
 
 export default function Home() {
-  const [isOver18, setIsOver18] = useState(null);
+  const [isOver18, setIsOver18] = useState<boolean | null>(null); // Defina o tipo de estado como booleano ou nulo
 
-  const handleConfirmation = (confirmed: boolean): void => {
+  const handleConfirmation = (confirmed: boolean) => { // Adicione um tipo explícito para o parâmetro confirmed
     setIsOver18(confirmed);
-    if (confirmed) {
-
-    } else {
+    if (!confirmed) {
       // Redirecione para outra página caso o usuário clique em "Não"
       window.location.href = 'https://www.youtube.com/kids/';
     }
