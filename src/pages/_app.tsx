@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <HubspotProvider>
         <Component {...pageProps} />
 
-        <GoogleTagManager gtmId="GTM-M43DX64N" />
+        <GoogleTagManager gtmId="GTM-5PLWVSR8" />
       </HubspotProvider>
     </main>
 
