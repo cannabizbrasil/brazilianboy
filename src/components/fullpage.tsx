@@ -191,7 +191,6 @@ export default function FullPage() {
                       />
                       <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x={86} />
                     </svg>
-
                     <blockquote className="mt-6 text-xl font-semibold italic leading-8 text-purple-700">
                       <p>
                         “É simplesmente Excepcional, a paixão pela cannabis encontra a vibração brasileira em cada produto da nossa colaboração com a Loja Cannabis.”
@@ -205,7 +204,6 @@ export default function FullPage() {
               </div>
               <div>
                 <div className="text-base leading-7 lg:max-w-lg">
-
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
                     Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da cannabis.</span>
                   </h1>

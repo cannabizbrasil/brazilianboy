@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Produtos', href: '#produtos' },
     { name: 'Jornada', href: '#jornada' },
     { name: 'Comprar', href: '#comprar' },
-    { name: 'Duvidas', href: '#faq' },
+    { name: 'Dúvidas', href: '#faq' },
 ]
 
 export default function NavBar() {
