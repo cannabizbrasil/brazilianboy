@@ -31,12 +31,8 @@ export default function Home() {
       {isOver18 === true}
       {isOver18 === false}
       <NavBar />
-
       <FullPage />
-
       <Footer />
-
-
     </main>
   );
 }
