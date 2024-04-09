@@ -120,18 +120,18 @@ export default function FullPage() {
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl  sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <Image
-              className="col-span-2 max-h-8 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-10 w-full object-contain lg:col-span-1"
               src="/locannabis.png"
-              alt="Transistor"
+              alt="Loja Cannabis"
               width={158}
               height={48}
             />
             <Image
-              className="col-span-2 max-h-8 w-full object-contain lg:col-span-1"
-              src="/locannabis.png"
-              alt="Reform"
-              width={158}
-              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              src="/bboy.png"
+              alt="Brazilian Boy"
+              width={258}
+              height={75}
             />
 
           </div>
@@ -235,7 +235,7 @@ export default function FullPage() {
 
 
         {/* products section */}
-        <div className="relative max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-24">
+        <div className="relative max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-24" id="produtos">
           <div className="relative mx-auto max-w-7xl">
             <div className="text-center">
               <h2 className="text-4xl font-bold tracking-tight text-verde sm:text-5xl">Produtos</h2>
@@ -303,7 +303,7 @@ export default function FullPage() {
 
 
         {/* Steps section */}
-        <div className="max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-32">
+        <div className="max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-32" id="jornada">
           <div className="mx-auto max-w-2xl text-center">
 
             <h2 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A sua jornada é simples</h2>
@@ -355,7 +355,7 @@ export default function FullPage() {
 
 
         {/* CTA section */}
-        < div className="relative isolate mt-12 px-6 py-32 sm:mt-24 sm:py-40 lg:px-8" >
+        < div className="relative isolate mt-12 px-6 py-32 sm:mt-24 sm:py-40 lg:px-8" id="comprar" >
 
           <div
             className="absolute inset-x-0 top-10 -z-10 flex transform-gpu justify-center overflow-hidden blur-3xl"
@@ -383,22 +383,23 @@ export default function FullPage() {
           </div>
         </div >
 
+        {/* FAQ */}
+        <div id="faq">
         <Faq />
+        </div>
 
         {/* Form hubspot */}
         <div className="mx-auto max-w-7xl sm:px-6 lg:px-8" id="iniciar">
-          <div className="relative isolate flex flex-col gap-10 overflow-hidden  px-6 py-24 shadow-2xl sm:rounded-3xl sm:px-24 xl:flex-row xl:items-center xl:py-32">
+          <div className="relative isolate flex flex-col gap-10 overflow-hidden   py-24 shadow-2xl sm:rounded-3xl  xl:flex-row xl:items-center xl:py-32">
             <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl xl:max-w-none xl:flex-auto">
-              Inicie Agora sua jornada no mundo da Cannabis Medicinal.
+              <span className="text-verde">Inicie Agora sua jornada</span> no mundo da Cannabis Medicinal.
             </h2>
             <div className="w-full max-w-md">
               <div className="flex gap-x-4">
-
                 <HubspotBboy />
               </div>
               <p className="mt-4 text-sm leading-6 text-gray-300">
                 Você será redirecionado{' '}
-
               </p>
             </div>
             <svg
