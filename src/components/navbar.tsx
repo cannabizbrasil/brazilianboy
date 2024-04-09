@@ -18,12 +18,12 @@ export default function NavBar() {
         <header className="bg-black">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="/" className="-m-1.5 p-1.5">
+                    <Link href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Loja Cannabis</span>
                         <Image className="h-12 w-auto" src="/bboy.png" alt=""
                             width={300}
                             height={70} />
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex lg:hidden">
                     <button
@@ -37,9 +37,9 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                        <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
                             {item.name}
-                        </a>
+                        </Link>
                     ))}
                 </div>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
