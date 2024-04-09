@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 interface Props {
-    onConfirm: any;
+    onConfirm: (isOver18: boolean) => void;
     isOver18: any;
 
 }
