@@ -21,34 +21,34 @@ const steps = [
 const products = [
   {
     id: 1,
-    product: 'Diamond de THCa',
+    product: 'Diamantes',
     href: '#',
-    category: 'Extração Full Spectrum',
+    category: 'Extração Isolada',
     img:
       '/diamond-thca.jpg',
-    alt: 'Diamond de THCa Full Spectrum',
-    description: 'Os Diamonds do Brazilian Boy são verdadeiras jóias da cannabis. Com sua pureza e potência incomparáveis, esses cristais de THC vão te surpreender com sua intensidade e claridade. Eles são derivados da nossa flor premium de alto teor de THCa e contém um grama inteira de THCa concentrado, além de 0,3 gramas de molho de resina viva, terpenos e outros canabinóides menores para um perfil forte e limpo, ideal para o dabbing de próximo nível.',
+    alt: 'Diamante de Extração isolada',
+    description: 'Este extrato é a forma mais pura de THCA, cristalizada para máximo benefício. É produzido por meio de técnicas de purificação que removem impurezas e cristalizam o THCa, resultando em cristais brilhantes conhecidos como "diamantes". Eles podem ser adcionados a comestíveis para quem busca alta concentração e alívios rápidos de dores crônicas e naúseas.',
   },
 
   {
     id: 2,
-    product: 'Bubble Hash',
+    product: 'Bubble Extract',
     href: '#',
-    category: 'Hashish Full Spectrum',
+    category: 'Extração Liofilizada',
     img:
       '/bubble-hash.jpg',
-    alt: 'Bubble Hash Full Spectrum',
-    description: 'Explore o mundo dos concentrados de cannabis com nosso Bubble Hash de THCa. É uma representação pura e potente da essência da planta. Nossa collab com o Brazilian Boy apresenta duas cepas excepcionais e é destinada àqueles que valorizam uma abordagem natural e sem solventes para sabores e sensações intensas.',
+    alt: 'Bubble Extração Liofilizada',
+    description: 'Este extrato é uma forma concentrada de tetra-hidrocanabinol ácido (THCA), produzida a partir de flores de cannabis. É obtido separando as glândulas de resina das flores e, em seguida, liofilizando para preservar seus terpenos e qualidade. Este extrato é uma combinação Full Spectrum que tem potencial para aliviar dores e inflamações e ajudar na melhora do sono.',
   },
   {
     id: 3,
     product: 'Live Rosin',
     href: '#',
-    category: 'Rosin Full Spectrum',
+    category: 'Extração Concentrada',
     img:
       '/live-rosin.jpg',
-    alt: 'Live Rosin Full Spectrum',
-    description: 'Mergulhe no mundo luxuoso dos concentrados de cannabis com nossa coleção Premium de Live Rosin de THCa junto ao Brazilian Boy, apresentando oito cepas distintas e potentes. Cada Rosin cremoso incorpora a pura essência da cannabis, oferecendo uma sinfonia de sabores e efeitos ricos. Escolhido à mão para conhecedores como você, essa coleção abre as portas para experiências sensoriais incomparáveis.',
+    alt: 'Live Rosin Concetrado',
+    description: 'O Extrato Concentrado, conhecido como Live Rosin de THCA, é uma forma altamente concentrada de tetra-hidrocanabinol ácido (THCA) produzida a partir de flores de cannabis frescas. É obtido aplicando pressão e calor a flores de cannabis frescas, liberando um extrato de THCA puro e concentrado. O Live Rosin de THCA é um concentrado altamente potente que pode ser dilúido ou adcionado a comestíveis para alívio rápido de dores e estresse, auxiliando no sono e no relaxamento físico e mental.',
   },
 ]
 
@@ -83,7 +83,7 @@ export default function FullPage() {
               <div className="mt-24 sm:mt-32 lg:mt-16">
                 <a href="#" className="inline-flex space-x-6">
                   <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
-                    Produto vendido somente com prescição médica
+                    Produtos a base de Cannabis no Brasil só podem ser vendidos com prescição médica
                   </span>
 
                 </a>
@@ -92,7 +92,7 @@ export default function FullPage() {
                 BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
               </h1>
               <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
-                Lifestyle Brasileiro, Sabores gringos
+                Lifestyle Brasileiro, Qualidade Internacional.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
@@ -136,9 +136,6 @@ export default function FullPage() {
 
           </div>
         </div>
-
-
-
         {/* Conteudo */}
         <div className="relative isolate py-24 sm:py-48">
           <div
@@ -193,7 +190,7 @@ export default function FullPage() {
                     </svg>
                     <blockquote className="mt-6 text-xl font-semibold italic leading-8 text-purple-700">
                       <p>
-                        “É simplesmente Excepcional, a paixão pela cannabis encontra a vibração brasileira em cada produto da nossa colaboração com a Loja Cannabis.”
+                        “É simplesmente Excepcional, sinta todos os beneficios da Cannabis Medicinal em cada produto da colaboração com a Loja Cannabis.”
                       </p>
                     </blockquote>
                     <figcaption className="mt-6 text-sm leading-6 text-gray-300">
@@ -205,20 +202,20 @@ export default function FullPage() {
               <div>
                 <div className="text-base leading-7 lg:max-w-lg">
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
-                    Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da cannabis.</span>
+                    Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
                   </h1>
                   <div className="max-w-xl text-gray-300 text-xl">
                     <p className="mt-6">
-                      Apresentamos a <strong>collab entre Loja Cannabis e Brazilian Boy</strong>, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com os sabores gringos.
+                      Apresentamos a <strong>collab entre Loja Cannabis e Brazilian Boy</strong>, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com padrões internacionais de cultivo.
                     </p>
                     <p className="mt-8">
                       Nosso processo começa com o cuidado meticuloso desde o <strong>cultivo das plantas até a seleção das melhores variedades</strong>, garantindo uma qualidade excepcional em cada extração.
                     </p>
                     <p className="mt-8">
-                      Explore nossa linha de products e mergulhe na autenticidade, <strong>sabor e energia únicos</strong> do Brazilian Boy.
+                      Explore nossa linha de Produtos e mergulhe na autenticidade, do Brazilian Boy.
                     </p>
                     <p className="mt-8 font-bold">
-                      Junte-se a nós nesta jornada sensorial, onde cada puff é uma dança de sabores e aromas.
+                      Junte-se a nós nesta jornada medicinal de bem-estar e saúde.
                     </p>
                   </div>
                 </div>
@@ -383,7 +380,7 @@ export default function FullPage() {
 
         {/* FAQ */}
         <div id="faq">
-        <Faq />
+          <Faq />
         </div>
 
         {/* Form hubspot */}
