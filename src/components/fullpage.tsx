@@ -4,6 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
+import { CheckIcon } from '@heroicons/react/20/solid'
 
 import { ButtonGradient, ButtonVerde, ButtonBranco } from './button'
 import HubspotBboy from './hubspotform'
@@ -52,6 +53,24 @@ const products = [
   },
 ]
 
+const features = [
+  { name: 'Insônia', },
+  { name: 'Ansiedade', },
+  { name: 'Dor Crônica', },
+  { name: 'Autismo', },
+  { name: 'Fibromialgia', },
+  { name: 'Alzheimer', },
+  { name: 'Eplepsia', },
+  { name: 'TDAH', },
+
+  { name: 'Artrite', },
+  { name: 'Depressão', },
+  { name: 'Transtorno pós-traumático', },
+  { name: 'Glaucoma', },
+  { name: 'Exaquecas', },
+  { name: 'Esclereose múltipla', },
+
+]
 
 
 
@@ -136,6 +155,8 @@ export default function FullPage() {
 
           </div>
         </div>
+
+
         {/* Conteudo */}
         <div className="relative isolate py-24 sm:py-48">
           <div
@@ -224,8 +245,31 @@ export default function FullPage() {
           </div>
         </div>
 
+        {/* beneficios section */}
+        <div className="py-24 sm:py-32">
+          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+            <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+              <div>
+                <h2 className="text-base font-semibold leading-7 text-verde">Beneficios</h2>
+                <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A Cannabis Medicinal tem diversas propriedades benéficas para o nosso organismo</p>
+                <p className="mt-6 text-base leading-7 text-gray-200">
+                  Promove Alívio da dor, relaxamento físico e mental, Propriedades anti-inflamatórias, Alívio da ansiedade e estresse, e auxiliam no tratamento de diversas doenças como:
+                </p>
+              </div>
+              <div className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-4 text-xl leading-7 text-gray-600 sm:grid-cols-2 lg:pl-24">
+                {features.map((feature) => (
+                  <div key={feature.name} className="relative pl-9">
+                    <div className="font-bold text-gray-100">
+                      <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-purple-500" aria-hidden="true" />
+                      {feature.name}
+                    </div>
 
-
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
 
 
 
