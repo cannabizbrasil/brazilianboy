@@ -111,7 +111,7 @@ export default function FullPage() {
                 BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
               </h1>
               <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
-                Lifestyle Brasileiro, Qualidade Internacional.
+                Lifestyle Brasileiro, qualidade Internacional.
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
