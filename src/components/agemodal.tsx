@@ -9,7 +9,8 @@ interface Props {
 const AgeConfirmationModal: React.FC<Props> = ({ onConfirm }: Props) => {
     const [isOpen, setIsOpen] = useState(true);
 
-    const handleConfirm = (isOver18) => {
+
+    const handleConfirm = (isOver18: boolean): void => {
         setIsOpen(false);
         onConfirm(isOver18);
     };
