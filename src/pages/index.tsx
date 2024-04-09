@@ -5,13 +5,7 @@ import FullPage from "@/components/fullpage";
 import Footer from "@/components/footer";
 import { useState } from 'react';
 import AgeConfirmationModal from '@/components/agemodal';
-import Hero from "@/components/hero";
-import LogoCloud from "@/components/logocloud";
-import Conteudo from "@/components/conteudo";
-import Produtos from "@/components/produtos";
-import Steps from "@/components/steps";
-import CallToAction from "@/components/cta";
-import Cadastro from "@/components/cadastro";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
