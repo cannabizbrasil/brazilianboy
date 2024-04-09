@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   const [isOver18, setIsOver18] = useState(null);
 
-  const handleConfirmation = (confirmed) => {
+  const handleConfirmation = (confirmed: boolean): void => {
     setIsOver18(confirmed);
     if (confirmed) {
 
@@ -36,6 +36,7 @@ export default function Home() {
       <NavBar />
 
       <FullPage />
+
       <Footer />
 
 
