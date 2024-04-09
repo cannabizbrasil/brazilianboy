@@ -96,9 +96,9 @@ export default function FullPage() {
               </p>
               <div className="mt-10 flex items-center gap-x-6">
                 <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
-                <a href="#" className="text-sm font-semibold leading-6 text-white">
+                <Link href="#jornada" className="text-sm font-semibold leading-6 text-white">
                   Etapas <span aria-hidden="true">→</span>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="mx-auto flex max-w-2xl lg:max-w-none lg:flex-none ">
