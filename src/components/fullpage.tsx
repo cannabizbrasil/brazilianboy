@@ -104,7 +104,6 @@ export default function FullPage() {
                   <span className="rounded-full bg-emerald-500/10 px-3 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
                     Produtos a base de Cannabis no Brasil só podem ser vendidos com prescição médica
                   </span>
-
                 </a>
               </div>
               <h1 className="mt-10 text-5xl font-black tracking-tight text-white sm:text-8xl">
@@ -152,7 +151,6 @@ export default function FullPage() {
               width={258}
               height={75}
             />
-
           </div>
         </div>
 
@@ -263,7 +261,6 @@ export default function FullPage() {
                       <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-purple-500" aria-hidden="true" />
                       {feature.name}
                     </div>
-
                   </div>
                 ))}
               </div>
