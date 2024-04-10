@@ -98,13 +98,12 @@ export default function FullPage() {
           </div>
           <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-24 lg:flex lg:px-8 lg:pt-24">
             <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-2xl lg:pt-8">
-
-              <div className="mt-24 sm:mt-32 lg:mt-16">
-                <a href="#" className="inline-flex space-x-6">
+              <div className="mt-12 sm:mt-32 lg:mt-16">
+                <div href="#" className="inline-flex space-x-6">
                   <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
                     Produtos a base de Cannabis no Brasil só podem ser vendidos com prescição médica
                   </span>
-                </a>
+                </div>
               </div>
               <h1 className="mt-10 text-5xl font-black tracking-tight text-white sm:text-8xl">
                 BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
@@ -119,7 +118,7 @@ export default function FullPage() {
                 </Link>
               </div>
             </div>
-            <div className="mx-auto flex max-w-2xl lg:max-w-none lg:flex-none ">
+            <div className="mx-auto flex max-w-2xl lg:max-w-none lg:flex-none">
               <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                 <Image
                   src="/mantwo.png"
