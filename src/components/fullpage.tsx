@@ -248,7 +248,7 @@ export default function FullPage() {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <div>
                 <h2 className="text-base font-semibold leading-7 text-verde">Beneficios</h2>
-                <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A Cannabis Medicinal tem diversas propriedades benéficas para o nosso organismo</p>
+                <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A Cannabis Medicinal tem <span className="text-verde">diversas propriedades benéficas</span> para o nosso organismo</p>
                 <p className="mt-6 text-base leading-7 text-gray-200">
                   Promove alívio da dor, relaxamento físico e mental, Propriedades anti-inflamatórias, alívio da ansiedade e estresse, e auxiliam no tratamento de diversas doenças como:
                 </p>
@@ -424,41 +424,54 @@ export default function FullPage() {
         </div>
 
         {/* Form hubspot */}
-        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8" id="iniciar">
-          <div className="relative isolate flex flex-col gap-10 overflow-hidden px-6 py-24 shadow-2xl sm:rounded-3xl  xl:flex-row xl:items-center xl:py-32">
-            <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl xl:max-w-none xl:flex-auto">
-              <span className="text-verde">Inicie Agora sua jornada</span> no mundo da Cannabis Medicinal.
-            </h2>
-            <div className="w-full max-w-md">
-              <div className="flex gap-x-4">
-                <HubspotBboy />
+
+        <div className="mx-auto relative isolate overflow-hidden flex grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+
+          <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
+            <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
+              <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidiven  lg:w-1/2">
               </div>
-              <p className="mt-4 text-sm leading-6 text-gray-300">
-                Você será redirecionado{' '}
+              <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-5xl xl:max-w-none xl:flex-auto">
+                <span className="text-verde">Inicie Agora sua jornada</span> no mundo da Cannabis Medicinal.
+              </h2>
+              <p className="mx-auto mt-6 max-w-xl text-xl leading-8 text-gray-300">
+                Faça seu cadastro e inicie seu tratamento.
               </p>
             </div>
-            <svg
-              viewBox="0 0 1024 1024"
-              className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
-              aria-hidden="true"
-            >
-              <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
-              <defs>
-                <radialGradient
-                  id="759c1415-0410-454c-8f7c-9a820de03641"
-                  cx={0}
-                  cy={0}
-                  r={1}
-                  gradientUnits="userSpaceOnUse"
-                  gradientTransform="translate(512 512) rotate(90) scale(512)"
-                >
-                  <stop stopColor="#7775D6" />
-                  <stop offset={1} stopColor="#E935C1" stopOpacity={0} />
-                </radialGradient>
-              </defs>
-            </svg>
           </div>
+
+          <div className="px-6 pb-24  sm:pb-32 lg:px-8 lg:py-48">
+            <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
+              <HubspotBboy />
+            </div>
+          </div>
+
+          <svg
+            viewBox="0 0 1024 1024"
+            className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
+            aria-hidden="true"
+          >
+            <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
+            <defs>
+              <radialGradient
+                id="759c1415-0410-454c-8f7c-9a820de03641"
+                cx={0}
+                cy={0}
+                r={1}
+                gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(512 512) rotate(90) scale(512)"
+              >
+                <stop stopColor="#7775D6" />
+                <stop offset={1} stopColor="#E935C1" stopOpacity={0} />
+              </radialGradient>
+            </defs>
+          </svg>
         </div>
+
+
+
+
+
 
       </main >
     </div >
