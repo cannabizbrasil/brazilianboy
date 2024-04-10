@@ -112,7 +112,7 @@ export default function Faq() {
                                             <>
                                                 <dt>
                                                     <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
-                                                        <span className="text-2xl leading-7">{faq.question}</span>
+                                                        <span className="text-xl leading-7 lg:text-2xl">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
                                                                 <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
