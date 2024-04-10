@@ -425,8 +425,8 @@ export default function FullPage() {
         </div>
 
         {/* Form hubspot */}
-        <div className="mx-auto max-w-7xl px-6 lg:px-8" id="iniciar">
-          <div className="relative isolate flex flex-col gap-10 overflow-hidden   py-24 shadow-2xl sm:rounded-3xl  xl:flex-row xl:items-center xl:py-32">
+        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8" id="iniciar">
+          <div className="relative isolate flex flex-col gap-10 overflow-hidden px-6 py-24 shadow-2xl sm:rounded-3xl  xl:flex-row xl:items-center xl:py-32">
             <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl xl:max-w-none xl:flex-auto">
               <span className="text-verde">Inicie Agora sua jornada</span> no mundo da Cannabis Medicinal.
             </h2>
