@@ -101,7 +101,7 @@ export default function FullPage() {
               <div className="mt-12 sm:mt-32 lg:mt-16">
                 <div className="inline-flex space-x-6">
                   <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
-                    Produtos a base de Cannabis no Brasil só podem ser vendidos com prescição médica
+                    Produtos a base de Cannabis no Brasil só podem ser vendidos com prescrição médica
                   </span>
                 </div>
               </div>
@@ -467,10 +467,6 @@ export default function FullPage() {
             </defs>
           </svg>
         </div>
-
-
-
-
 
 
       </main >
