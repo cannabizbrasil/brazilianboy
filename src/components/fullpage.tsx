@@ -253,7 +253,7 @@ export default function FullPage() {
                 <h2 className="text-base font-semibold leading-7 text-verde">Beneficios</h2>
                 <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A Cannabis Medicinal tem diversas propriedades benéficas para o nosso organismo</p>
                 <p className="mt-6 text-base leading-7 text-gray-200">
-                  Promove Alívio da dor, relaxamento físico e mental, Propriedades anti-inflamatórias, Alívio da ansiedade e estresse, e auxiliam no tratamento de diversas doenças como:
+                  Promove alívio da dor, relaxamento físico e mental, Propriedades anti-inflamatórias, alívio da ansiedade e estresse, e auxiliam no tratamento de diversas doenças como:
                 </p>
               </div>
               <div className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-4 text-xl leading-7 text-gray-600 sm:grid-cols-2 lg:pl-24">
