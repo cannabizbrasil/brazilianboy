@@ -1,3 +1,5 @@
+'use client'
+
 
 import { Inter } from "next/font/google";
 import NavBar from "@/components/navbar";
@@ -9,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export default function ObrigadoPage() {
     return (
         <main>
-            <NavBar />
+
             <Obrigado />
             <Footer />
         </main>

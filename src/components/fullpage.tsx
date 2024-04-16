@@ -5,7 +5,8 @@ import Link from 'next/link'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { CldVideoPlayer } from 'next-cloudinary';
+import { CldVideoPlayer, getCldImageUrl } from 'next-cloudinary';
+import 'next-cloudinary/dist/cld-video-player.css';
 
 import { ButtonGradient, ButtonVerde, ButtonBranco } from './button'
 import HubspotBboy from './hubspotform'
@@ -84,7 +85,6 @@ export default function FullPage() {
 
         {/* Hero section */}
         <div className="relative isolate overflow-hidden">
-
           <div
             className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
             aria-hidden="true"
@@ -134,6 +134,13 @@ export default function FullPage() {
 
 
 
+
+
+
+
+
+
+
         {/* Logo Brand */}
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl  sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-2">
@@ -172,16 +179,30 @@ export default function FullPage() {
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
 
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+
               <div>
                 <div className="overflow-hidden bg-verde rounded-3xl shadow-2xl max-w-md">
                   <CldVideoPlayer
-                    id="ney-pereira_diwxtz"
-                    width="300"
-                    height="500"
-                    src=" https://res.cloudinary.com/db6anj6oy/video/upload/v1712707673/ney-pereira_diwxtz.mp4"
+                    id="brazilian-boy"
+                    width="350"
+                    height="600"
+                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713304727/xmi8bv7dla06aanmyxys.mp4"
+                    colors={{
+                      accent: '#84caeb', // barrinha que move
+                      base: '#8aef70', // barra inferior
+                      text: '#FFFFFF' // icones
+                    }}
+                    logo={{
+                      imageUrl: getCldImageUrl({
+                        src: '/iconeplayer.ico'
+                      }),
+                      // imageUrl: '<Your Image URL',
+                      onClickUrl: 'https://cannamed.com.br'
+                    }}
                   />
                 </div>
               </div>
+
               <div>
                 <div className="text-base leading-7 lg:max-w-lg">
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
@@ -390,7 +411,7 @@ export default function FullPage() {
 
         {/* Form hubspot */}
 
-        <div className="mx-auto relative isolate overflow-hidden flex grid max-w-7xl grid-cols-1 lg:grid-cols-2">
+        <div className="mx-auto relative isolate overflow-hidden flex grid max-w-7xl grid-cols-1 lg:grid-cols-2" id="cadastro">
 
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
