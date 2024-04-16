@@ -1,5 +1,5 @@
 import { ButtonGradient, ButtonVerde, ButtonBranco } from "./button";
-
+import { CldVideoPlayer, getCldImageUrl } from 'next-cloudinary';
 
 
 export default function Obrigado() {
@@ -18,7 +18,7 @@ export default function Obrigado() {
                         }}
                     />
                 </div>
-                <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+                <div className="mx-auto max-w-2xl ">
                     <div className="hidden sm:mb-8 sm:flex sm:justify-center">
 
                     </div>
@@ -26,7 +26,6 @@ export default function Obrigado() {
                         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
                             Você está a um passo de conseguir seu medicamento.
                         </h1>
-
                         <div className="mt-10 flex items-center justify-center gap-x-6">
                             <div>
                                 <p className="text-lg leading-8 text-gray-400 pb-4">
@@ -41,6 +40,28 @@ export default function Obrigado() {
                                 <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='Adquirir Produtos' target="_blank" />
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="mx-auto px-6 sm:px-6 lg:px-8 pb-8 ">
+                    <div className="overflow-hidden bg-black rounded-3xl shadow-2xl">
+                        <CldVideoPlayer
+                            id="Ansiedade_orijqo"
+                            width="100%"
+                            height="100%"
+                            src="https://res.cloudinary.com/db6anj6oy/video/upload/v1712708346/Ansiedade_orijqo.mp4"
+                            colors={{
+                                accent: '#84caeb', // barrinha que move
+                                base: '#8aef70', // barra inferior
+                                text: '#FFFFFF' // icones
+                            }}
+                            logo={{
+                                imageUrl: getCldImageUrl({
+                                    src: 'https://res.cloudinary.com/db6anj6oy/image/upload/v1712783930/logo-cannamed-white_pnvdb3.png'
+                                }),
+                                // imageUrl: '<Your Image URL',
+                                onClickUrl: 'https://cannamed.com.br'
+                            }}
+                        />
                     </div>
                 </div>
                 <div
