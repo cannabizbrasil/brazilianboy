@@ -190,7 +190,7 @@ export default function FullPage() {
               </div>
 
               <div>
-                <div className="text-base leading-7 lg:max-w-lg">
+                <div className="text-base leading-7 lg:max-w-lg px-8">
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
                     Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
                   </h1>
