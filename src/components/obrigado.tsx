@@ -42,21 +42,23 @@ export default function Obrigado() {
                     </div>
                 </div>
                 <div className="mx-auto max-w-4xl ">
+                    <div className="text-center">
+                        <h1 className="text-2xl font-bold tracking-tight text-white sm:text-6xl">
+                            Você já tem <span className="text-verde">Prescrição Médica</span> e ANVISA.
+                        </h1>
+                    </div>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
+
                         <div className="hidden sm:mb-8 sm:flex sm:justify-center">
 
                         </div>
                         <div>
-                            <p className="text-lg leading-8 text-center text-gray-400 pb-4">
-                                Se você NÂO TEM Receita e Anvisa
-                            </p>
-                            <ButtonVerde href="https://wa.me/5561998577833" textobotao='Atendimento' target="_blank" />
+
+                            <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='SIM' target="_blank" />
                         </div>
                         <div>
-                            <p className="text-lg leading-8 text-center text-gray-400  pb-4">
-                                Se você Já tem Receita e Anvisa
-                            </p>
-                            <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='Produtos' target="_blank" />
+                            <ButtonVerde href="https://wa.me/5561998577833" textobotao='NÃO' target="_blank" />
+
                         </div>
                     </div>
                 </div>
