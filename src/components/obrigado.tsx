@@ -47,16 +47,16 @@ export default function Obrigado() {
 
                         </div>
                         <div>
-                            <p className="text-lg leading-8 text-gray-400 pb-4">
+                            <p className="text-lg leading-8 text-center text-gray-400 pb-4">
                                 Se você NÂO TEM Receita e Anvisa
                             </p>
                             <ButtonVerde href="https://wa.me/5561998577833" textobotao='Atendimento' target="_blank" />
                         </div>
                         <div>
-                            <p className="text-lg leading-8 text-gray-400  pb-4">
+                            <p className="text-lg leading-8 text-center text-gray-400  pb-4">
                                 Se você Já tem Receita e Anvisa
                             </p>
-                            <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='Adquirir Produtos' target="_blank" />
+                            <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='Produtos' target="_blank" />
                         </div>
                     </div>
                 </div>
