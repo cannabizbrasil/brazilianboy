@@ -71,7 +71,7 @@ export default function Obrigado() {
 
                         </div>
                     </div>
-                    <h1 className="mt-6 text-md tracking-tight text-white text-center sm:text-6xl">
+                    <h1 className="mt-6 text-xl tracking-tight text-white text-center">
                         Sua prescrição médica deve ser para os medicamentos, Extrato Concentrado de THCA, Extrato Liofilizado de THCA, Extrato Isolado de THCA.
                     </h1>
                 </div>
