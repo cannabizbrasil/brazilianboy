@@ -15,9 +15,9 @@ import Faq from './faq'
 
 const steps = [
   { id: '01', name: 'Consulta', href: '#iniciar', description: 'Realize uma consulta com seu médico de confiança' },
-  { id: '02', name: 'Receita', href: '#iniciar', description: 'Receba do seu médico as prescrições dos produtos ideias para o seu tratamento' },
-  { id: '03', name: 'Documentação', href: '#iniciar', description: 'Com a receita em mãos, Retire sua autorização da ANVISA ' },
-  { id: '04', name: 'Comprar', href: 'https://lojacannabis.com/collections/brazilian-boy', description: 'Faça o Cadastro no Site da Loja Cannabis' },
+  { id: '02', name: 'Receita', href: '#iniciar', description: 'Receba do seu médico as prescrições dos produtos ideais para o seu tratamento' },
+  { id: '03', name: 'Documentação', href: '#iniciar', description: 'Com a prescrição médica em mãos, Retire sua autorização da ANVISA ' },
+  { id: '04', name: 'Comprar', href: '#iniciar', description: 'Faça o Cadastro no Site da Loja Cannabis' },
 ]
 
 
@@ -315,7 +315,7 @@ export default function FullPage() {
 
             <h2 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A sua jornada é simples</h2>
             <p className="mt-6 text-lg leading-8 text-verde pb-12">
-              Para adquirir seus medicamentos você deve comprir algumas etapas.
+              Para adquirir seus medicamentos você deve cumprir algumas etapas.
             </p>
           </div>
           <nav aria-label="Progress">
@@ -325,8 +325,8 @@ export default function FullPage() {
                   <div>
                     <Link href={step.href} aria-current="step">
                       <div className="flex items-center pb-4 px-6 text-sm font-medium " >
-                        <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full border-2 border-purple-500">
-                          <span className="text-purple-500 text-2xl">{step.id}</span>
+                        <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500 ">
+                          <span className="text-white text-2xl">{step.id}</span>
                         </span>
                         <span className="ml-4 text-2xl font-bold text-white">{step.name}</span>
                       </div>
