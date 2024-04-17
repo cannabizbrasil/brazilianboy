@@ -7,7 +7,7 @@ import 'next-cloudinary/dist/cld-video-player.css';
 export default function Obrigado() {
     return (
         <div className="bg-neutral-950">
-            <div className="relative isolate px-6 pt-14 lg:px-8 py-32">
+            <div className="relative isolate overflow-hidden px-6 pt-14 lg:px-8 py-32">
                 <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
                     aria-hidden="true"
