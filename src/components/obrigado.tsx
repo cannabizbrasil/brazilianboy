@@ -44,7 +44,7 @@ export default function Obrigado() {
                 <div className="mx-auto max-w-4xl ">
                     <div className="text-center">
                         <h1 className="text-2xl font-bold tracking-tight text-white sm:text-6xl">
-                            Você já tem <span className="text-verde">Prescrição Médica</span> e ANVISA.
+                            Você já tem Prescrição Médica e ANVISA <span className="text-verde text-4xl">?</span>
                         </h1>
                     </div>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
