@@ -88,7 +88,7 @@ export default function FullPage() {
         <div className="">
 
 
-          <div className="mx-auto max-w-7xl px-8 py-12 lg:py-32">
+          <div className="mx-auto max-w-7xl px-6 py-12 lg:py-32">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div>
                 <div className="mt-12 sm:mt-32 lg:mt-16">
@@ -111,7 +111,7 @@ export default function FullPage() {
                   </Link>
                 </div>
               </div>
-              <div className="pl-2 lg:pl-16">
+              <div className="pl-0 lg:pl-16">
                 <div className="overflow-hidden rounded-2xl max-w-md shadow-2xl shadow-green-800">
                   <CldVideoPlayer
                     id="xmi8bv7dla06aanmyxys"
