@@ -38,6 +38,18 @@ export default function Obrigado() {
                             width="500"
                             height="300"
                             src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713381464/brazilian-boy-obrigado_bqqilp.mp4"
+                            colors={{
+                                accent: '#84caeb', // barrinha que move
+                                base: '#8aef70', // barra inferior
+                                text: '#FFFFFF' // icones
+                            }}
+                            logo={{
+                                imageUrl: getCldImageUrl({
+                                    src: '/bboy.png'
+                                }),
+                                // imageUrl: '<Your Image URL',
+                                onClickUrl: 'https://lojacannabis.com'
+                            }}
                         />
                     </div>
                 </div>
@@ -49,9 +61,7 @@ export default function Obrigado() {
                     </div>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
 
-                        <div className="hidden sm:mb-8 sm:flex sm:justify-center">
 
-                        </div>
                         <div>
 
                             <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='SIM' target="_blank" />
@@ -61,6 +71,9 @@ export default function Obrigado() {
 
                         </div>
                     </div>
+                    <h1 className="mt-6 text-md tracking-tight text-white text-center sm:text-6xl">
+                        Sua prescrição médica deve ser para os medicamentos, Extrato Concentrado de THCA, Extrato Liofilizado de THCA, Extrato Isolado de THCA.
+                    </h1>
                 </div>
 
                 <div

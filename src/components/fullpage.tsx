@@ -105,7 +105,7 @@ export default function FullPage() {
                   Lifestyle Brasileiro, qualidade Internacional.
                 </p>
                 <div className="mt-10 mb-10 flex items-center gap-x-6">
-                  <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
+                  <ButtonVerde href="#cadastro" textobotao='Inicie sua Jornada' target='' />
                   <Link href="#jornada" className="text-sm font-semibold leading-6 text-white">
                     Etapas <span aria-hidden="true">→</span>
                   </Link>
@@ -114,10 +114,10 @@ export default function FullPage() {
               <div className="pl-0 lg:pl-16">
                 <div className="overflow-hidden rounded-2xl max-w-md shadow-2xl shadow-green-800">
                   <CldVideoPlayer
-                    id="xmi8bv7dla06aanmyxys"
+                    id="brazilian-boy-bem-vindo_ciqohn"
                     width="500"
                     height="800"
-                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713304727/xmi8bv7dla06aanmyxys.mp4"
+                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713387602/brazilian-boy-bem-vindo_ciqohn.mp4"
                     colors={{
                       accent: '#84caeb', // barrinha que move
                       base: '#8aef70', // barra inferior
@@ -125,10 +125,10 @@ export default function FullPage() {
                     }}
                     logo={{
                       imageUrl: getCldImageUrl({
-                        src: '/iconeplayer.ico'
+                        src: '/bboy.png'
                       }),
                       // imageUrl: '<Your Image URL',
-                      onClickUrl: 'https://cannamed.com.br'
+                      onClickUrl: 'https://lojacannabis.com'
                     }}
                   />
                 </div>
@@ -300,7 +300,7 @@ export default function FullPage() {
               ))}
             </div>
             <div className="mt-16 flex items-center justify-center">
-              <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
+              <ButtonVerde href="#cadastro" textobotao='Inicie sua Jornada' target='' />
             </div>
           </div>
         </div >
