@@ -361,7 +361,7 @@ export default function FullPage() {
         </div>
 
 
-        {/* CTA section */}
+        {/* CTA section 
         < div className="relative isolate mt-12 px-6 py-32 sm:mt-24 sm:py-40 lg:px-8" id="comprar" >
 
           <div
@@ -389,6 +389,7 @@ export default function FullPage() {
             </div>
           </div>
         </div >
+        */}
 
         {/* FAQ */}
         <div id="faq">
