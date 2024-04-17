@@ -17,8 +17,6 @@ const config: Config = {
         'verde': '#7cda24',
         'escuro': '#000D09',
       },
-
-
     },
   },
   plugins: [],

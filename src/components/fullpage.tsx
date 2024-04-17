@@ -12,6 +12,7 @@ import { ButtonGradient, ButtonVerde, ButtonBranco } from './button'
 import HubspotBboy from './hubspotform'
 import Faq from './faq'
 
+
 const steps = [
   { id: '01', name: 'Consulta', href: '#iniciar', description: 'Realize uma consulta com seu médico de confiança' },
   { id: '02', name: 'Receita', href: '#iniciar', description: 'Receba do seu médico as prescrições dos produtos ideias para o seu tratamento' },
@@ -84,7 +85,7 @@ export default function FullPage() {
       <main>
 
         {/* Hero section */}
-        <div className="relative isolate overflow-hidden">
+        <div>
           <div
             className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
             aria-hidden="true"
@@ -97,47 +98,55 @@ export default function FullPage() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 pb-24 pt-10 sm:pb-24 lg:flex lg:px-8 lg:pt-24">
-            <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-2xl lg:pt-8">
-              <div className="mt-12 sm:mt-32 lg:mt-16">
-                <div className="inline-flex space-x-6">
-                  <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
-                    Produtos a base de Cannabis no Brasil só podem ser vendidos com prescrição médica
-                  </span>
+
+          <div className="mx-auto max-w-7xl px-8 py-32">
+            <div className="grid grid-cols-1 lg:grid-cols-2">
+              <div>
+                <div className="mt-12 sm:mt-32 lg:mt-16">
+                  <div className="inline-flex space-x-6">
+                    <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
+                      Produtos a base de Cannabis no Brasil só podem ser vendidos com prescrição médica
+                    </span>
+                  </div>
+                </div>
+                <h1 className="mt-10 text-5xl font-black tracking-tight text-white sm:text-8xl">
+                  BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
+                </h1>
+                <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
+                  Lifestyle Brasileiro, qualidade Internacional.
+                </p>
+                <div className="mt-10 flex items-center gap-x-6">
+                  <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
+                  <Link href="#jornada" className="text-sm font-semibold leading-6 text-white">
+                    Etapas <span aria-hidden="true">→</span>
+                  </Link>
                 </div>
               </div>
-              <h1 className="mt-10 text-5xl font-black tracking-tight text-white sm:text-8xl">
-                BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
-              </h1>
-              <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
-                Lifestyle Brasileiro, qualidade Internacional.
-              </p>
-              <div className="mt-10 flex items-center gap-x-6">
-                <ButtonVerde href="#iniciar" textobotao='Inicie sua Jornada' target='' />
-                <Link href="#jornada" className="text-sm font-semibold leading-6 text-white">
-                  Etapas <span aria-hidden="true">→</span>
-                </Link>
-              </div>
-            </div>
-            <div className="mx-auto flex max-w-2xl lg:max-w-none lg:flex-none">
-              <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
-                <Image
-                  src="/mantwo.png"
-                  alt="Brazilian Boy"
-                  width={700}
-                  height={800}
-                />
+              <div className="pl-2 lg:pl-16">
+                <div className="overflow-hidden rounded-2xl max-w-md shadow-2xl shadow-green-800">
+                  <CldVideoPlayer
+                    id="xmi8bv7dla06aanmyxys"
+                    width="500"
+                    height="800"
+                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713304727/xmi8bv7dla06aanmyxys.mp4"
+                    colors={{
+                      accent: '#84caeb', // barrinha que move
+                      base: '#8aef70', // barra inferior
+                      text: '#FFFFFF' // icones
+                    }}
+                    logo={{
+                      imageUrl: getCldImageUrl({
+                        src: '/iconeplayer.ico'
+                      }),
+                      // imageUrl: '<Your Image URL',
+                      onClickUrl: 'https://cannamed.com.br'
+                    }}
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-
-
-
-
-
-
 
 
 
@@ -176,29 +185,17 @@ export default function FullPage() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl ">
 
             <div className="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2">
 
               <div>
-                <div className="overflow-hidden bg-verde rounded-3xl shadow-2xl max-w-md">
-                  <CldVideoPlayer
-                    id="brazilian-boy"
-                    width="350"
-                    height="600"
-                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713304727/xmi8bv7dla06aanmyxys.mp4"
-                    colors={{
-                      accent: '#84caeb', // barrinha que move
-                      base: '#8aef70', // barra inferior
-                      text: '#FFFFFF' // icones
-                    }}
-                    logo={{
-                      imageUrl: getCldImageUrl({
-                        src: '/iconeplayer.ico'
-                      }),
-                      // imageUrl: '<Your Image URL',
-                      onClickUrl: 'https://cannamed.com.br'
-                    }}
+                <div className="">
+                  <Image
+                    src="/mantwo.png"
+                    alt="Brazilian Boy"
+                    width={700}
+                    height={800}
                   />
                 </div>
               </div>

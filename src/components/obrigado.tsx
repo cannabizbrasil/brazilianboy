@@ -36,8 +36,8 @@ export default function Obrigado() {
                         <CldVideoPlayer
                             id="Ansiedade_orijqo"
                             width="500"
-                            height="200"
-                            src="https://res.cloudinary.com/db6anj6oy/video/upload/v1712707673/ney-pereira_diwxtz.mp4"
+                            height="300"
+                            src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713381464/brazilian-boy-obrigado_bqqilp.mp4"
                         />
                     </div>
                 </div>
@@ -61,10 +61,6 @@ export default function Obrigado() {
                     </div>
                 </div>
 
-
-
-
-
                 <div
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                     aria-hidden="true"
@@ -81,3 +77,6 @@ export default function Obrigado() {
         </div >
     )
 }
+
+
+
