@@ -112,10 +112,10 @@ export default function FullPage() {
               <div className="pl-0 lg:pl-16">
                 <div className="overflow-hidden rounded-2xl max-w-md shadow-2xl shadow-green-800">
                   <CldVideoPlayer
-                    id="brazilian-boy-bem-vindo_ciqohn"
+                    id="brazilian-boy-abertura_im5d25"
                     width="500"
                     height="800"
-                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713387602/brazilian-boy-bem-vindo_ciqohn.mp4"
+                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713467084/brazilian-boy-abertura_im5d25.mp4"
                     colors={{
                       accent: '#84caeb', // barrinha que move
                       base: '#8aef70', // barra inferior
