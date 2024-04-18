@@ -64,7 +64,7 @@ export default function Obrigado() {
 
                         <div>
 
-                            <ButtonBranco href="https://lojacannabis.com/collections/brazilian-boy" textobotao='SIM' target="_blank" />
+                            <ButtonBranco href="https://lojacannabis.com" textobotao='SIM' target="_blank" />
                         </div>
                         <div>
                             <ButtonVerde href="https://wa.me/5561998577833" textobotao='NÃO' target="_blank" />
