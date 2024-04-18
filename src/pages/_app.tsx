@@ -10,8 +10,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Saúde e bem-estar com Loja Cannabis e Brazilian Boy</title>
+        <title>Saúde e bem-estar com Cannabis Medicinal</title>
         <meta name="description" content="Apresentamos a collab entre Loja Cannabis e Brazilian Boy, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com padrões internacionais de cultivo. Nosso processo começa com o cuidado meticuloso desde o cultivo das plantas até a seleção das melhores variedades, garantindo uma qualidade excepcional em cada extração." />
+        <meta property="image" content="/seo-image.jpg" />
         <meta property="og:title" content="Saúde e bem-estar com Loja Cannabis e Brazilian Boy" />
         <meta property="og:description" content="Apresentamos a collab entre Loja Cannabis e Brazilian Boy, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com padrões internacionais de cultivo. Nosso processo começa com o cuidado meticuloso desde o cultivo das plantas até a seleção das melhores variedades, garantindo uma qualidade excepcional em cada extração." />
         <meta property="og:image" content="/seo-image.jpg" />
