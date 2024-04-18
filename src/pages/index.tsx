@@ -5,7 +5,7 @@ import FullPage from "@/components/fullpage";
 import Footer from "@/components/footer";
 import { useState } from 'react';
 import AgeConfirmationModal from '@/components/agemodal';
-import Obrigado from "@/components/obrigado";
+
 
 
 
@@ -29,7 +29,7 @@ export default function Home() {
       <NavBar />
       <FullPage />
       <Footer />
-
     </main>
+
   );
 }
