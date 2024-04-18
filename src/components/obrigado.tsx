@@ -60,22 +60,17 @@ export default function Obrigado() {
                         </h1>
                     </div>
                     <div className="mt-10 flex items-center justify-center gap-x-6">
-
-
                         <div>
-
                             <ButtonBranco href="https://lojacannabis.com" textobotao='SIM' target="_blank" />
                         </div>
                         <div>
                             <ButtonVerde href="https://wa.me/5561998577833" textobotao='NÃO' target="_blank" />
-
                         </div>
                     </div>
                     <h1 className="mt-6 text-xl tracking-tight text-white text-center">
                         Sua prescrição médica deve ser para os medicamentos, Extrato Concentrado de THCA, Extrato Liofilizado de THCA, Extrato Isolado de THCA.
                     </h1>
                 </div>
-
                 <div
                     className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
                     aria-hidden="true"
