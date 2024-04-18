@@ -116,6 +116,7 @@ export default function FullPage() {
                     width="500"
                     height="800"
                     src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713467084/brazilian-boy-abertura_im5d25.mp4"
+                    poster={getCldImageUrl({ src: 'https://res.cloudinary.com/dmryqhxwa/image/upload/v1713469269/brazilian-boy-abertura_sh7fpw.jpg' })}
                     colors={{
                       accent: '#84caeb', // barrinha que move
                       base: '#8aef70', // barra inferior
