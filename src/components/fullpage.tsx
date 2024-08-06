@@ -29,7 +29,7 @@ const products = [
     href: '#',
     category: 'Extração Isolada',
     img:
-      '/diamond-thca.jpg',
+      '/diamond-thca.png',
     alt: 'Diamante de Extração isolada',
     description: 'Este extrato é a forma mais pura de THCA, cristalizada para máximo benefício. É produzido por meio de técnicas de purificação que removem impurezas e cristalizam o THCa, resultando em cristais brilhantes conhecidos como "diamantes". Eles podem ser adcionados a comestíveis para quem busca alta concentração e alívios rápidos de dores crônicas e naúseas.',
   },
@@ -40,7 +40,7 @@ const products = [
     href: '#',
     category: 'Extração Liofilizada',
     img:
-      '/bubble-hash.jpg',
+      '/bubble-hash.png',
     alt: 'Bubble Extração Liofilizada',
     description: 'Este extrato é uma forma concentrada de tetra-hidrocanabinol ácido (THCA), produzida a partir de flores de cannabis. É obtido separando as glândulas de resina das flores e, em seguida, liofilizando para preservar seus terpenos e qualidade. Este extrato é uma combinação Full Spectrum que tem potencial para aliviar dores e inflamações e ajudar na melhora do sono.',
   },
@@ -50,7 +50,7 @@ const products = [
     href: '#',
     category: 'Extração Concentrada',
     img:
-      '/live-rosin.jpg',
+      '/live-rosin.png',
     alt: 'Live Rosin Concetrado',
     description: 'O Extrato Concentrado, conhecido como Live Rosin de THCA, é uma forma altamente concentrada de tetra-hidrocanabinol ácido (THCA) produzida a partir de flores de cannabis frescas. É obtido aplicando pressão e calor a flores de cannabis frescas, liberando um extrato de THCA puro e concentrado. O Live Rosin de THCA é um concentrado altamente potente que pode ser dilúido ou adcionado a comestíveis para alívio rápido de dores e estresse, auxiliando no sono e no relaxamento físico e mental.',
   },
