@@ -54,6 +54,36 @@ const products = [
     alt: 'Live Rosin Concetrado',
     description: 'O Extrato Concentrado, conhecido como Live Rosin de THCA, é uma forma altamente concentrada de tetra-hidrocanabinol ácido (THCA) produzida a partir de flores de cannabis frescas. É obtido aplicando pressão e calor a flores de cannabis frescas, liberando um extrato de THCA puro e concentrado. O Live Rosin de THCA é um concentrado altamente potente que pode ser dilúido ou adcionado a comestíveis para alívio rápido de dores e estresse, auxiliando no sono e no relaxamento físico e mental.',
   },
+  {
+    id: 4,
+    product: 'Óleos de Cannabis',
+    href: '#',
+    category: 'Óleos',
+    img:
+      '/oleos.png',
+    alt: 'Óleos de Cannabis',
+    description: 'Conhecido pelas suas propriedades terapêuticas inúmeras, capazes de proporcionar alívio para diversas condições, além de promover o bem-estar geral.',
+  },
+  {
+    id: 5,
+    product: 'Gummies',
+    href: '#',
+    category: 'Gummies',
+    img:
+      '/gummies.png',
+    alt: 'Gummies',
+    description: 'Nossos Gummies de Delta-9 trazem uma forma discreta e saborosa de desfrutar dos benefícios relaxantes e eufóricos deste canabinoide. Ideais para aliviar o estresse diário, essas gummies são uma alternativa conveniente para usufruir das propriedades terapêuticas da cannabis.',
+  },
+  {
+    id: 6,
+    product: 'Roll On',
+    href: '#',
+    category: 'Uso Tópico',
+    img:
+      '/roll-on.png',
+    alt: 'Roll On',
+    description: 'Uma potente concentração de Canabidiol (CBD), trazendo a força natural desta substância para aliviar tensões e proporcionar conforto onde você mais precisa. Basta aplicá-lo na área desejada para uma sensação de alívio e relaxamento quase imediatos.',
+  },
 ]
 
 const features = [
@@ -81,7 +111,7 @@ const features = [
 
 export default function FullPage() {
   return (
-    <div className="bg-escuro">
+    <div className="bg-gray-100">
       <main>
 
         {/* Hero section */}
@@ -96,7 +126,7 @@ export default function FullPage() {
                     </span>
                   </div>
                 </div>
-                <h1 className="mt-10 text-5xl font-black tracking-tight text-white sm:text-8xl">
+                <h1 className="mt-10 text-5xl font-black tracking-tight text-gray-900 sm:text-8xl">
                   BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
                 </h1>
                 <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
@@ -149,7 +179,7 @@ export default function FullPage() {
               height={48}
             />
             <Image
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 items-left"
               src="/bboy.png"
               alt="Brazilian Boy"
               width={258}
@@ -190,10 +220,10 @@ export default function FullPage() {
 
               <div>
                 <div className="text-base leading-7 lg:max-w-lg px-8">
-                  <h1 className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-5xl">
+                  <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                     Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
                   </h1>
-                  <div className="max-w-xl text-gray-300 text-xl">
+                  <div className="max-w-xl text-gray-700 text-xl">
                     <p className="mt-6">
                       Apresentamos a <strong>collab entre Loja Cannabis e Brazilian Boy</strong>, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com padrões internacionais de cultivo.
                     </p>
@@ -219,15 +249,15 @@ export default function FullPage() {
             <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               <div>
                 <h2 className="text-base font-semibold leading-7 text-verde">Beneficios</h2>
-                <p className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A Cannabis Medicinal tem <span className="text-verde">diversas propriedades benéficas</span> para o nosso organismo</p>
-                <p className="mt-6 text-base leading-7 text-gray-200">
+                <p className="mt-2 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl">A Cannabis Medicinal tem <span className="text-verde">diversas propriedades benéficas</span> para o nosso organismo</p>
+                <p className="mt-6 text-base leading-7 text-gray-700">
                   Promove alívio da dor, relaxamento físico e mental, Propriedades anti-inflamatórias, alívio da ansiedade e estresse, e auxiliam no tratamento de diversas doenças como:
                 </p>
               </div>
               <div className="col-span-2 grid grid-cols-1 gap-x-8 gap-y-4 text-xl leading-7 text-gray-600 sm:grid-cols-2 lg:pl-24">
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
-                    <div className="font-bold text-gray-100">
+                    <div className="font-bold text-gray-700">
                       <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-purple-500" aria-hidden="true" />
                       {feature.name}
                     </div>
@@ -245,16 +275,16 @@ export default function FullPage() {
           <div className="relative mx-auto max-w-7xl">
             <div className="text-center">
               <h2 className="text-4xl font-bold tracking-tight text-verde sm:text-5xl">Produtos</h2>
-              <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-300 sm:mt-4">
+              <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-700 sm:mt-4">
                 Esses produtos são de uso exclusivo medicinal, você precisa se consultar com um médico prescritor!
               </p>
             </div>
             <div className="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3">
               {products.map((product) => (
                 <div key={product.product} className="transition ease-in-out flex flex-col overflow-hidden rounded-2xl shadow-2xl ring-1 ring-gray-700 shadow-green-950 hover:scale-105 hover:shadow-purple-800 duration-1000">
-                  <div className="flex-shrink-0">
+                  <div className="flex-shrink-0 bg-gray-200">
                     <Image
-                      className="h-86 w-full object-cover"
+                      className="h-86 w-full object-cover "
                       src={product.img}
                       alt=""
                       width={512}
@@ -273,8 +303,8 @@ export default function FullPage() {
                             <>
                               <dt>
                                 <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
-                                  <span className="text-2xl font-bold text-white">{product.product}</span>
-                                  <span className="ml-6 flex text-white h-7 items-center ">
+                                  <span className="text-2xl font-bold text-gray-700">{product.product}</span>
+                                  <span className="ml-6 flex text-gray-700 h-7 items-center ">
                                     {open ? (
                                       <MinusSmallIcon className="h-6 w-6" aria-hidden="true" />
                                     ) : (
@@ -284,7 +314,7 @@ export default function FullPage() {
                                 </Disclosure.Button>
                               </dt>
                               <Disclosure.Panel as="dd" className="mt-2 pr-12 ">
-                                <p className="mt-3 text-base text-gray-300">{product.description}</p>
+                                <p className="mt-3 text-base text-gray-700">{product.description}</p>
                               </Disclosure.Panel>
                             </>
                           )}
@@ -312,7 +342,7 @@ export default function FullPage() {
         <div className="max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-32" id="jornada">
           <div className="mx-auto max-w-2xl text-center">
 
-            <h2 className="mt-2 text-4xl font-bold tracking-tight text-white sm:text-5xl">A sua jornada é simples</h2>
+            <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl">A sua jornada é simples</h2>
             <p className="mt-6 text-lg leading-8 text-verde pb-12">
               Para adquirir seus medicamentos você deve cumprir algumas etapas.
             </p>
@@ -327,9 +357,9 @@ export default function FullPage() {
                         <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500 ">
                           <span className="text-white text-2xl">{step.id}</span>
                         </span>
-                        <span className="ml-4 text-2xl font-bold text-white">{step.name}</span>
+                        <span className="ml-4 text-2xl font-bold text-gray-900">{step.name}</span>
                       </div>
-                      <div className="px-6 text-lg text-gray-300">{step.description}</div>
+                      <div className="px-6 text-lg text-gray-700">{step.description}</div>
 
                     </Link>
                     {stepIdx !== steps.length - 1 ? (
@@ -403,10 +433,10 @@ export default function FullPage() {
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
               <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidiven  lg:w-1/2">
               </div>
-              <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-5xl xl:max-w-none xl:flex-auto">
+              <h2 className="max-w-2xl text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl xl:max-w-none xl:flex-auto">
                 <span className="text-verde">Inicie Agora sua jornada</span> no mundo da Cannabis Medicinal.
               </h2>
-              <p className="mx-auto mt-6 max-w-xl text-xl leading-8 text-gray-300">
+              <p className="mx-auto mt-6 max-w-xl text-xl leading-8 text-gray-700">
                 Faça seu cadastro e inicie seu tratamento.
               </p>
             </div>

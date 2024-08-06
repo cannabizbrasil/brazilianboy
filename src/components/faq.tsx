@@ -100,18 +100,18 @@ export default function Faq() {
                     </div>
                     <div className="mx-auto max-w-7xl px-6 ">
                         <div className="mx-auto max-w-2xl text-center">
-                            <h2 className="text-4xl font-bold leading-10 tracking-tight text-white sm:text-5xl">Tire todas as suas dúvidas</h2>
+                            <h2 className="text-4xl font-bold leading-10 tracking-tight text-gray-900 sm:text-5xl">Tire todas as suas dúvidas</h2>
 
                         </div>
-                        <div className="mx-auto max-w-7xl divide-y divide-gray-900/10">
+                        <div className="mx-auto max-w-7xl ">
 
-                            <dl className="mt-16 space-y-6 divide-y divide-purple-100/10">
+                            <dl className="mt-16 space-y-6 divide-y divide-purple-700/10">
                                 {faqs.map((faq) => (
                                     <Disclosure as="div" key={faq.question} className="pt-6">
                                         {({ open }) => (
                                             <>
                                                 <dt>
-                                                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-white">
+                                                    <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
                                                         <span className="text-xl leading-7 lg:text-2xl">{faq.question}</span>
                                                         <span className="ml-6 flex h-7 items-center">
                                                             {open ? (
@@ -123,7 +123,7 @@ export default function Faq() {
                                                     </Disclosure.Button>
                                                 </dt>
                                                 <Disclosure.Panel as="dd" className="mt-2 pr-12">
-                                                    <p className="text-base leading-7 text-gray-200">{faq.answer}</p>
+                                                    <p className="text-base leading-7 text-gray-700">{faq.answer}</p>
                                                 </Disclosure.Panel>
                                             </>
                                         )}
