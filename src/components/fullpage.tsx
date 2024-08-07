@@ -121,13 +121,13 @@ export default function FullPage() {
               <div>
                 <div className="mt-12 sm:mt-32 lg:mt-16">
                   <div className="inline-flex space-x-6">
-                    <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-purple-500 ring-1 ring-inset ring-gray-500/20">
+                    <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-roxo ring-1 ring-inset ring-gray-500/20">
                       Produtos a base de Cannabis no Brasil só podem ser vendidos com prescrição médica
                     </span>
                   </div>
                 </div>
                 <h1 className="mt-10 text-5xl font-black tracking-tight text-gray-900 sm:text-8xl">
-                  BRAZILIAN BOY <span className="text-purple-500 font-light italic">VS</span> LOJA CANNABIS
+                  BRAZILIAN BOY <span className="text-roxo font-light italic">VS</span> LOJA CANNABIS
                 </h1>
                 <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
                   Lifestyle Brasileiro, qualidade Internacional.
@@ -196,7 +196,7 @@ export default function FullPage() {
             aria-hidden="true"
           >
             <div
-              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#7c3aed] to-[#c026d3] opacity-30"
+              className="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#6d28d9] to-[#6d28d9] opacity-30"
               style={{
                 clipPath:
                   'polygon(63.1% 29.6%, 100% 17.2%, 76.7% 3.1%, 48.4% 0.1%, 44.6% 4.8%, 54.5% 25.4%, 59.8% 49.1%, 55.3% 57.9%, 44.5% 57.3%, 27.8% 48%, 35.1% 81.6%, 0% 97.8%, 39.3% 100%, 35.3% 81.5%, 97.2% 52.8%, 63.1% 29.6%)',
@@ -221,7 +221,7 @@ export default function FullPage() {
               <div>
                 <div className="text-base leading-7 lg:max-w-lg px-8">
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                    Prepare-se para uma experiência única, onde o <span className="text-purple-500">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
+                    Prepare-se para uma experiência única, onde o <span className="text-roxo">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
                   </h1>
                   <div className="max-w-xl text-gray-700 text-xl">
                     <p className="mt-6">
@@ -258,7 +258,7 @@ export default function FullPage() {
                 {features.map((feature) => (
                   <div key={feature.name} className="relative pl-9">
                     <div className="font-bold text-gray-700">
-                      <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-purple-500" aria-hidden="true" />
+                      <CheckIcon className="absolute left-0 top-1 h-5 w-5 text-roxo" aria-hidden="true" />
                       {feature.name}
                     </div>
                   </div>
@@ -281,7 +281,7 @@ export default function FullPage() {
             </div>
             <div className="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3">
               {products.map((product) => (
-                <div key={product.product} className="transition ease-in-out flex flex-col overflow-hidden rounded-2xl shadow-2xl ring-1 ring-gray-700 shadow-green-950 hover:scale-105 hover:shadow-purple-800 duration-1000">
+                <div key={product.product} className="transition ease-in-out flex flex-col overflow-hidden rounded-2xl shadow-2xl ring-1 ring-gray-700 shadow-green-950 hover:scale-105 hover:shadow-roxo duration-1000">
                   <div className="flex-shrink-0 bg-gray-200">
                     <Image
                       className="h-86 w-full object-cover "
@@ -293,7 +293,7 @@ export default function FullPage() {
                   </div>
                   <div className="flex flex-1 flex-col justify-between px-12 py-6">
                     <div className="flex-1">
-                      <p className="text-sm font-medium text-purple-500">
+                      <p className="text-sm font-medium text-roxo">
                         {product.category}
                       </p>
                       <div className="mt-2 block">
@@ -354,7 +354,7 @@ export default function FullPage() {
                   <div>
                     <Link href={step.href} aria-current="step">
                       <div className="flex items-center pb-4 px-6 text-sm font-medium " >
-                        <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-purple-500 ">
+                        <span className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-roxo ">
                           <span className="text-white text-2xl">{step.id}</span>
                         </span>
                         <span className="ml-4 text-2xl font-bold text-gray-900">{step.name}</span>
@@ -367,7 +367,7 @@ export default function FullPage() {
                         {/* Arrow separator for lg screens and up */}
                         <div className="absolute right-0 top-0 hidden h-full w-5 md:block" aria-hidden="true">
                           <svg
-                            className="h-full w-full text-purple-500"
+                            className="h-full w-full text-roxo"
                             viewBox="0 0 22 80"
                             fill="none"
                             preserveAspectRatio="none"
@@ -428,7 +428,6 @@ export default function FullPage() {
         {/* Form hubspot */}
 
         <div className="mx-auto relative isolate overflow-hidden flex grid max-w-7xl grid-cols-1 lg:grid-cols-2" id="cadastro">
-
           <div className="relative px-6 pb-20 pt-24 sm:pt-32 lg:static lg:px-8 lg:py-48">
             <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
               <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidiven  lg:w-1/2">
@@ -453,7 +452,7 @@ export default function FullPage() {
             className="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2"
             aria-hidden="true"
           >
-            <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.7" />
+            <circle cx={512} cy={512} r={512} fill="url(#759c1415-0410-454c-8f7c-9a820de03641)" fillOpacity="0.5" />
             <defs>
               <radialGradient
                 id="759c1415-0410-454c-8f7c-9a820de03641"
@@ -463,14 +462,12 @@ export default function FullPage() {
                 gradientUnits="userSpaceOnUse"
                 gradientTransform="translate(512 512) rotate(90) scale(512)"
               >
-                <stop stopColor="#7775D6" />
-                <stop offset={1} stopColor="#E935C1" stopOpacity={0} />
+                <stop stopColor="#6d28d9" />
+                <stop offset={1} stopColor="#6d28d9" stopOpacity={0} />
               </radialGradient>
             </defs>
           </svg>
         </div>
-
-
       </main >
     </div >
   )

@@ -9,7 +9,6 @@ const navigation = [
     { name: 'Jornada', href: '#jornada' },
     { name: 'Dúvidas', href: '#faq' },
     { name: 'Eu Quero', href: '#cadastro' },
-
 ]
 
 export default function NavBar() {
@@ -19,7 +18,7 @@ export default function NavBar() {
         <header className="bg-gray-100">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <Link href="#" className="-m-1.5 p-1.5">
-                    <span className="sr-only">Your Company</span>
+                    <span className="sr-only">Loja Cannabis e Brazilian Boy</span>
                     <Image className="h-12 w-auto" src="/bboy.png" alt=""
                         width={300}
                         height={100} />
@@ -36,11 +35,10 @@ export default function NavBar() {
                 </div>
                 <div className="hidden lg:flex lg:gap-x-12">
                     {navigation.map((item) => (
-                        <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+                        <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-800">
                             {item.name}
                         </Link>
                     ))}
-
                 </div>
             </nav>
             <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -48,7 +46,7 @@ export default function NavBar() {
                 <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
                     <div className="flex items-center justify-between">
                         <Link href="#" className="-m-1.5 p-1.5">
-                            <span className="sr-only">Your Company</span>
+                            <span className="sr-only">Loja Cannabis e Brazilian Boy</span>
                             <Image
                                 className="h-8 w-auto"
                                 src="/bboy.png"
@@ -79,7 +77,6 @@ export default function NavBar() {
                                     </Link>
                                 ))}
                             </div>
-
                         </div>
                     </div>
                 </Dialog.Panel>

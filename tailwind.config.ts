@@ -15,6 +15,7 @@ const config: Config = {
       },
       colors: {
         'verde': '#7cda24',
+        'roxo': '#6d28d9',
         'escuro': '#000D09',
       },
     },
