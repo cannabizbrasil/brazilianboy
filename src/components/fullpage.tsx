@@ -14,10 +14,10 @@ import Faq from './faq'
 
 
 const steps = [
-  { id: '01', name: 'Consulta', href: '#iniciar', description: 'Realize uma consulta com seu médico de confiança' },
-  { id: '02', name: 'Receita', href: '#iniciar', description: 'Receba do seu médico as prescrições dos produtos ideais para o seu tratamento' },
-  { id: '03', name: 'Documentação', href: '#iniciar', description: 'Com a prescrição médica em mãos, Retire sua autorização da ANVISA ' },
-  { id: '04', name: 'Comprar', href: '#iniciar', description: 'Faça o Cadastro no Site da Loja Cannabis' },
+  { id: '01', name: 'Consulta', href: '#cadastro', description: 'Realize uma consulta com seu médico de confiança' },
+  { id: '02', name: 'Receita', href: '#cadastro', description: 'Receba do seu médico as prescrições dos produtos ideais para o seu tratamento' },
+  { id: '03', name: 'Documentação', href: '#cadastro', description: 'Com a prescrição médica em mãos, Retire sua autorização da ANVISA ' },
+  { id: '04', name: 'Comprar', href: '#cadastro', description: 'Faça o Cadastro no Site da Loja Cannabis' },
 ]
 
 
