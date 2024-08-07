@@ -122,7 +122,7 @@ export default function FullPage() {
                 <div className="mt-12 sm:mt-32 lg:mt-16">
                   <div className="inline-flex space-x-6">
                     <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-roxo ring-1 ring-inset ring-gray-500/20">
-                      Produtos a base de Cannabis no Brasil só podem ser vendidos com prescrição médica
+                      Produtos à Base de Cannabis no Brasil: Exclusivamente com Prescrição Médica
                     </span>
                   </div>
                 </div>
@@ -130,7 +130,7 @@ export default function FullPage() {
                   BRAZILIAN BOY <span className="text-roxo font-light italic">VS</span> LOJA CANNABIS
                 </h1>
                 <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
-                  Lifestyle Brasileiro, qualidade Internacional.
+                  Excelência Médica com Qualidade Internacional.
                 </p>
                 <div className="mt-10 mb-10 flex items-center gap-x-6">
                   <ButtonVerde href="#cadastro" textobotao='Inicie sua Jornada' target='' />
@@ -221,14 +221,20 @@ export default function FullPage() {
               <div>
                 <div className="text-base leading-7 lg:max-w-lg px-8">
                   <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-                    Prepare-se para uma experiência única, onde o <span className="text-roxo">gingado brasileiro</span> se encontra com a <span className="text-verde">excelência da Cannabis Medicinal.</span>
+
+
+                    Prepare-se para uma experiência única, onde o <span className="text-roxo"> cuidado e a ciência</span> se encontram com a <span className="text-verde"> excelência da Cannabis Medicinal.</span>
                   </h1>
                   <div className="max-w-xl text-gray-700 text-xl">
                     <p className="mt-6">
-                      Apresentamos a <strong>collab entre Loja Cannabis e Brazilian Boy</strong>, uma linha de extrações que captura o verdadeiro ritmo do Brasil, com padrões internacionais de cultivo.
+
+                      Apresentamos a <strong>colaboração entre Loja Cannabis e Brazilian Boy</strong>, uma linha de produtos que une o compromisso com a saúde ao mais alto padrão internacional de qualidade.
+
                     </p>
                     <p className="mt-8">
-                      Nosso processo começa com o cuidado meticuloso desde o <strong>cultivo das plantas até a seleção das melhores variedades</strong>, garantindo uma qualidade excepcional em cada extração.
+
+                      Nosso processo começa com o cultivo meticuloso das plantas, passando pela <strong>seleção das melhores variedades</strong>, para garantir uma qualidade excepcional em cada medicamento.
+
                     </p>
                     <p className="mt-8">
                       Explore nossa linha de Produtos e mergulhe na autenticidade, do Brazilian Boy.
@@ -274,9 +280,9 @@ export default function FullPage() {
         <div className="relative max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-24" id="produtos">
           <div className="relative mx-auto max-w-7xl">
             <div className="text-center">
-              <h2 className="text-4xl font-bold tracking-tight text-verde sm:text-5xl">Produtos</h2>
+              <h2 className="text-4xl font-bold tracking-tight text-verde sm:text-5xl">Nossa Linha de Produtos</h2>
               <p className="mx-auto mt-3 max-w-2xl text-xl text-gray-700 sm:mt-4">
-                Esses produtos são de uso exclusivo medicinal, você precisa se consultar com um médico prescritor!
+                Explore nossa linha de produtos medicinais e experimente a eficácia terapêutica comprovada da Cannabis. Cada produto é cuidadosamente desenvolvido para proporcionar benefícios de saúde e bem-estar, atendendo às necessidades específicas de cada paciente.
               </p>
             </div>
             <div className="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3">
@@ -342,9 +348,9 @@ export default function FullPage() {
         <div className="max-w-7xl mx-auto px-6 pb-20 pt-16 lg:pb-28 lg:px-8 lg:pt-32" id="jornada">
           <div className="mx-auto max-w-2xl text-center">
 
-            <h2 className="mt-2 text-4xl font-bold tracking-tight text-gray-700 sm:text-5xl">A sua jornada é simples</h2>
-            <p className="mt-6 text-lg leading-8 text-verde pb-12">
-              Para adquirir seus medicamentos você deve cumprir algumas etapas.
+            <h2 className="mt-2 text-4xl font-bold tracking-tight text-roxo sm:text-5xl">Junte-se a Nós nesta Jornada de Saúde e Bem-Estar</h2>
+            <p className="mt-6 text-lg leading-8 text-gray-700 pb-12">
+              Comprometidos com a autenticidade e a qualidade, convidamos você a descobrir os benefícios dos nossos produtos medicinais. Experimente o cuidado do Brazilian Boy, aliado à excelência da Loja Cannabis.
             </p>
           </div>
           <nav aria-label="Progress">
