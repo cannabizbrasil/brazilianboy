@@ -350,7 +350,7 @@ export default function FullPage() {
           <nav aria-label="Progress">
             <ol role="list" className="divide-y divide-gray-300 rounded-2xl border border-gray-700 md:flex md:divide-y-0">
               {steps.map((step, stepIdx) => (
-                <li key={step.name} className="relative py-4 md:flex md:flex-1 hover:bg-purple-950">
+                <li key={step.name} className="relative py-4 md:flex md:flex-1">
                   <div>
                     <Link href={step.href} aria-current="step">
                       <div className="flex items-center pb-4 px-6 text-sm font-medium " >
