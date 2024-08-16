@@ -5,8 +5,11 @@ import Link from 'next/link'
 import { Disclosure } from '@headlessui/react'
 import { MinusSmallIcon, PlusSmallIcon } from '@heroicons/react/24/outline'
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { CldVideoPlayer, getCldImageUrl } from 'next-cloudinary';
-import 'next-cloudinary/dist/cld-video-player.css';
+
+
+import Video from 'next-video';
+import ReactPlayer from './player';
+import videoBBoy from '/videos/bboy-v2.mp4';
 
 import { ButtonGradient, ButtonVerde, ButtonBranco } from './button'
 import HubspotBboy from './hubspotform'
@@ -116,7 +119,7 @@ export default function FullPage() {
 
         {/* Hero section */}
         <div className="">
-          <div className="mx-auto max-w-7xl px-6 py-12 lg:py-32">
+          <div className="mx-auto max-w-7xl px-6 py-12 ">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div>
                 <div className="mt-12 sm:mt-32 lg:mt-16">
@@ -139,27 +142,11 @@ export default function FullPage() {
                   </Link>
                 </div>
               </div>
-              <div className="pl-0 lg:pl-16">
-                <div className="overflow-hidden rounded-2xl max-w-md shadow-2xl shadow-green-800">
-                  <CldVideoPlayer
-                    id="brazilian-boy-abertura_im5d25"
-                    width="500"
-                    height="800"
-                    src="https://res.cloudinary.com/dmryqhxwa/video/upload/v1713467084/brazilian-boy-abertura_im5d25.mp4"
-                    poster={getCldImageUrl({ src: 'https://res.cloudinary.com/dmryqhxwa/image/upload/v1713469269/brazilian-boy-abertura_sh7fpw.jpg' })}
-                    colors={{
-                      accent: '#84caeb', // barrinha que move
-                      base: '#8aef70', // barra inferior
-                      text: '#FFFFFF' // icones
-                    }}
-                    logo={{
-                      imageUrl: getCldImageUrl({
-                        src: '/bboy.png'
-                      }),
-                      // imageUrl: '<Your Image URL',
-                      onClickUrl: 'https://lojacannabis.com'
-                    }}
-                  />
+              <div className="pl-0 lg:pl-44">
+                <div className="overflow-hidden rounded-2xl shadow-2xl shadow-green-800">
+
+                  <Video src={videoBBoy} className="h-[40rem] lg:h-[48rem] w-[8rem]" />
+
                 </div>
               </div>
             </div>
