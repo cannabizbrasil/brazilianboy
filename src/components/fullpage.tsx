@@ -125,7 +125,7 @@ export default function FullPage() {
                 <div className="mt-12 sm:mt-32 lg:mt-16">
                   <div className="inline-flex space-x-6">
                     <span className="rounded-full bg-emerald-500/10 px-6 py-1 text-sm font-semibold leading-6 text-roxo ring-1 ring-inset ring-gray-500/20">
-                      Produtos à Base de Cannabis no Brasil: Exclusivamente com Prescrição Médica
+                      Produtos à Base de Cannabis só podem ser vendidos no Brasil com Prescrição Médica
                     </span>
                   </div>
                 </div>
@@ -157,7 +157,7 @@ export default function FullPage() {
 
         {/* Logo Brand */}
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto grid max-w-lg grid-cols-2 items-center gap-x-8 gap-y-12 sm:max-w-xl  sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-2">
+          <div className="mx-auto grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-12 sm:max-w-xl  sm:gap-x-10 sm:gap-y-14 lg:mx-0 lg:max-w-none lg:grid-cols-3">
             <Image
               className="col-span-2 max-h-10 w-full object-contain lg:col-span-1"
               src="/locannabis.png"
@@ -171,6 +171,13 @@ export default function FullPage() {
               alt="Brazilian Boy"
               width={258}
               height={75}
+            />
+            <Image
+              className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 items-left"
+              src="/wisgro.png"
+              alt="wisgro hemp farm"
+              width={300}
+              height={300}
             />
           </div>
         </div>
@@ -272,6 +279,18 @@ export default function FullPage() {
                 Explore nossa linha de produtos medicinais e experimente a eficácia terapêutica comprovada da Cannabis. Cada produto é cuidadosamente desenvolvido para proporcionar benefícios de saúde e bem-estar, atendendo às necessidades específicas de cada paciente.
               </p>
             </div>
+            <Link href="https://antigo.anvisa.gov.br/documents/10181/6415139/RDC_660_2022_.pdf/cddad7b2-6a6c-4fbd-b30b-d56f38c50755 " target="_blank">
+              <div className="bg-roxo mx-auto mt-8 max-w-2xl p-4  rounded-2xl text-center">
+
+                <p className=" text-xl text-gray-100">
+                  Todos os produtos desta linha são importados dos EUA através da RDC Nº 660, de 30 de março de 2022 da ANVISA.
+                </p>
+                <p className="text-verde pt-4">Clique e leia a resolução na integra</p>
+
+              </div>
+            </Link>
+
+
             <div className="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3">
               {products.map((product) => (
                 <div key={product.product} className="transition ease-in-out flex flex-col overflow-hidden rounded-2xl shadow-2xl ring-1 ring-gray-700 shadow-green-950 hover:scale-105 hover:shadow-roxo duration-1000">
