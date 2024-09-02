@@ -130,7 +130,7 @@ export default function FullPage() {
                   </div>
                 </div>
                 <h1 className="mt-10 text-5xl font-black tracking-tight text-gray-900 sm:text-8xl">
-                  BRAZILIAN BOY <span className="text-roxo font-light italic">VS</span> LOJA CANNABIS
+                  BRAZILIAN BOY <span className="text-roxo font-light italic">&</span> LOJA CANNABIS <span className="text-verde font-light italic">&</span> WISGRO
                 </h1>
                 <p className="mt-6 text-3xl leading-8 tracking-widest text-verde">
                   Excelência Médica com Qualidade Internacional.
@@ -222,7 +222,7 @@ export default function FullPage() {
                   <div className="max-w-xl text-gray-700 text-xl">
                     <p className="mt-6">
 
-                      Apresentamos a <strong>colaboração entre Loja Cannabis e Brazilian Boy</strong>, uma linha de produtos que une o compromisso com a saúde ao mais alto padrão internacional de qualidade.
+                      Apresentamos a <strong>colaboração entre Loja Cannabis, Brazilian Boy e Wisgro</strong>, uma linha de produtos que une o compromisso com a saúde ao mais alto padrão internacional de qualidade.
 
                     </p>
                     <p className="mt-8">
